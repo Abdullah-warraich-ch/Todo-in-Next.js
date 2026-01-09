@@ -9,6 +9,7 @@ export default function RootLayout({ children }) {
           <Link href="/contact">contact</Link>
           <Link href="/counter">counter</Link>
           <Link href="/profile/John">profile</Link>
+          <Link href="/posts">Posts</Link>
         </nav>
         <main>{children}</main>
       </body>
